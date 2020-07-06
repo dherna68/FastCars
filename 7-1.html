@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <label for="Name">Name:</label><br>
+        <input type="text" id="Name" name="Name" placeholder="Carne Asada"  autofocus><br>
+        <label for="Date">Date:</label><br>
+        <input type="date"><br>
+        <br>
+        <label for="Comment">Comment</label><br>
+        <textarea name="Comment" placeholder="Why do you hate us?" required style="width:200px; height:200px;"></textarea>
+        <br>
+        <br>
+        <br>
+        <form action="Pizza" method="GET">
+
+            <label for="pizzaToppings">Pizza Type</label><br>
+            <input list="pizzaToppings" name="Pizza">
+            <datalist id="pizzaToppings">
+                <option value="Pepperoni"></option>
+                <option value="Cheese"></option>
+                <option value="Boneless"></option>
+            </datalist>
+            
+        </form>
+        <br><br>
+        <input type="submit" value="Ok">
+
+    </form>
+    
+</body>
+</html>
